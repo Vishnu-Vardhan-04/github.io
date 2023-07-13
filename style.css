@@ -1,22 +1,16 @@
-body{
-    background-color: black;
+/* Write your code here: */
+h1,h2{
+    color: blueviolet;
 }
-h1{
-    font-family: 'Caveat', cursive;
-    color: white;
-    text-align: center;
-
+.box > p{
+    color: firebrick;
 }
-div{
-    width: 50%;
-    margin-left: 25%;
+.box li{
+    color: blue;
 }
-.meme{
-    width: 100%;
-    margin-top: 80px;
-    border: 5px solid white;
+li.done{
+    color: seagreen;
 }
-p{
-    color: white;
-    text-align: center;
+ul p.done{
+    font-size: 0.5rem;
 }
