@@ -1,0 +1,104 @@
+body{
+    background-color: #F3F8FF;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.Login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: #7E30E1;
+    height: 500px;
+    width: 400px;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 1px 0px 16px 8px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
+}
+h1{
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.Email,.password{
+    background-color: #fff;
+    height: 40px;
+    width: 70%;
+    border-radius: 5px;
+    margin: 0px 0px 15px 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+.btn-sign-in{
+    padding: 10px;
+    width: 70%;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border: 1px solid #5783db;
+    background-color: #5783db;
+    box-shadow: 1px 0px 16px 0px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin: 20px 0px;
+}
+.rem{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+.remember{
+    width: 50%;
+    margin: 0px 0px 0px 24%;
+    
+}
+.me{
+    float: left;
+}
+.help{
+    float: right;
+}
+.sign-up{
+    width: 100%;
+    margin-top: 50px;
+    color: #C5FFF8;
+    
+}
+.sign_up{
+    text-decoration: none;
+    color: #C5FFF8;
+}
+.divider{
+    color: white;
+}
+title{
+    display: none;
+}
+
+@media (max-width: 500px){
+    *{
+        display: block;
+        width: 100%;
+    }
+    .btn-sign-in{
+        margin-left: 15%;
+        font-size: 14px;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    .Email,.password{
+        font-size: 11px;
+    }
+    .divider{
+        display: none;
+    }
+}
